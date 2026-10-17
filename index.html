@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Моя Визитка</title>
+  <style>
+    body { font-family: Arial; text-align: center; margin-top: 80px; background: #343435; color: white; }
+    h1 { color: #fefeff; }
+    p { color: rgb(0, 0, 0); font-size: 24px; background: rgb(255, 0, 0); }
+    .card {
+      background: rgb(8, 8, 8);
+      color: rgb(239, 6, 6);
+      width: 300px;
+      padding: 30px;
+      margin: 0;
+      border-radius: 50px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+      border: 2px solid rgb(239, 6, 6);
+    }
+    .card:hover{transform: translateY(-3px);}
+    a{color:rgb(255, 255, 255)}
+    .cards{
+      display: flex;
+      justify-content:space-evenly;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 24px;
+      background: rgb(239, 6, 6);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Михаил</h1>
+  <p>Я начал изучать структуру и создание сайтов</p>
+  <div class="cards">
+    <div class="card">
+      <h2>Что я изучаю</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Мои интересы</h2>
+      <ul>
+        <li>Программиррование</li>
+        <li>Информатика</li>
+        <li>Компьютерные игры</li>
+      </ul>
+    </div>
+  </div>
+  <a class="button" href="https://claude.ai">Мой помощник</a>
+</body>
+</html>
